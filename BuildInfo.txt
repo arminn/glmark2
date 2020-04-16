@@ -1,0 +1,16 @@
+built on top of commit :
+commit 8fdd8b43af1b231958963ce525fef0d63598df69
+Author: Rick Ramstetter <rick@anteaterllc.com>
+Date:   Wed Mar 18 22:00:37 2020 +0000
+
+    Allow version string suffix
+    
+    The version string 2017.07 has not changed in years. This is confusing at runtime.
+    Add a --version-suffix waf option to allow users to set a proprietary version string.
+    
+    Signed-off-by: Rick Ramstetter <rick@anteaterllc.com>
+
+using:
+BUILD_TOOLS_VERSION=27.0.0
+Android 10
+
